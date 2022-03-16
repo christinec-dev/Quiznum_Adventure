@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quiznum Adventure</string>
+    <string name="info">Can you guess the number?</string>
+
+</resources>

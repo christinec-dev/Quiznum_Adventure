@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_game"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/textViewLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/luckiest"
+        android:gravity="top|left"
+        android:shadowColor="@color/purple_200"
+        android:shadowDx="1"
+        android:shadowDy="2"
+        android:shadowRadius="99"
+        android:text="Previous Guess: None"
+        android:textColor="@color/radio"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/luckiest"
+        android:gravity="top|left"
+        android:shadowColor="@color/purple_200"
+        android:shadowDx="1"
+        android:shadowDy="2"
+        android:shadowRadius="99"
+        android:text="Attempts Remaining: 10"
+        android:textColor="@color/radio"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextGuess"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:gravity="center|center_horizontal"
+        android:hint="What about 99? 🤔"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/luckiest"
+        android:gravity="top|left"
+        android:text="Go ahead and guess!"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/luckiest"
+        android:gravity="center|center_horizontal"
+        android:text="GUESS!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="448dp" />
+</LinearLayout>
