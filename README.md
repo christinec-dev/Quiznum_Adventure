@@ -1,7 +1,7 @@
 # Quiznum_Adventure
 I LOVE making games, even the design part - it is my favorite thing to do ever. Today I made a Number Guessing Game with Java and Android Studio. This game is called Quiznum Adventure (quiz + numbers + space, it's cool). There are three difficulty levels (easy, medium, hard), and you have 10 attempts to make guess the number, otherwise it's GAME OVER! 👾👾👾
 
-Everything was designed by me, but the assets used are collected from Freepik. Please note that this game is not to be duplicated.
+Everything was designed by me, but the assets used are collected from Freepik. 
 
 ## MAIN UI
 ![Screenshot_20220316_142736](https://user-images.githubusercontent.com/87696858/158594494-279303db-5688-4891-9c1e-f70e3bea6599.png)
